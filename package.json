@@ -1,0 +1,22 @@
+{
+	"name": "expanse_project",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "nuxt build",
+		"dev": "nuxt dev",
+		"generate": "nuxt generate",
+		"preview": "nuxt preview",
+		"postinstall": "nuxt prepare",
+		"lint": "pnpm biome format --write ."
+	},
+	"dependencies": {
+		"nuxt": "^3.14.159",
+		"vue": "latest",
+		"vue-router": "latest"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"typescript": "^5.6.3"
+	}
+}
