@@ -1,5 +1,5 @@
 <script setup lang="ts">
-useModal();
+useModal()
 </script>
 
 <template>

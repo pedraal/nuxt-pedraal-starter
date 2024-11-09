@@ -1,12 +1,12 @@
-import { Window } from "happy-dom";
-import { $fetch, url as nuxtUrl } from "@nuxt/test-utils/e2e";
+import { Window } from 'happy-dom'
+import { $fetch, url as nuxtUrl } from '@nuxt/test-utils/e2e'
 
 export async function $fetchToDom(url: string) {
-	const html = (await $fetch(url)) as string;
-	const window = new Window({ url: nuxtUrl(url) });
-	const document = window.document;
+  const html = (await $fetch(url)) as string
+  const window = new Window({ url: nuxtUrl(url) })
+  const document = window.document
 
-	document.write(html);
+  document.write(html)
 
-	return document;
+  return document
 }
