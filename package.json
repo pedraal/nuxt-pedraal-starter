@@ -9,10 +9,13 @@
 		"preview": "nuxt preview",
 		"postinstall": "nuxt prepare",
 		"lint": "pnpm biome format --write .",
-		"test": "vitest"
+		"test": "vitest",
+		"db": "mongorp-cli"
 	},
 	"dependencies": {
 		"@nuxt/ui": "3.0.0-alpha.8",
+		"mongorp": "^0.5.2",
+		"mongorp-cli": "^0.5.2",
 		"nuxt": "^3.14.159",
 		"vue": "latest",
 		"vue-router": "latest"
